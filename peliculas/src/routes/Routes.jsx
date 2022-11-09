@@ -2,8 +2,9 @@ import React from 'react';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import LandingPage from '../views/landingPage/LandingPage';
 import NavBar from '../views/navBar/NavBar';
+import LandingPage from '../views/landingPage/LandingPage';
+import MovieDetails from '../views/movieDetails/MovieDetails';
 
 const MyRoutes = () => {
     return (
@@ -11,6 +12,7 @@ const MyRoutes = () => {
             <NavBar />
             <Routes>
                 <Route exact path="/" element={<LandingPage />} />
+                <Route exact path='/movies/:movieId' element={<MovieDetails/>} />
             </Routes>
         </Router>
     )

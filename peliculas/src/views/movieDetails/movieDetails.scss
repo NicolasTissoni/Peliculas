@@ -1,0 +1,52 @@
+@import '../../styles/index.scss';
+
+.movieDetails_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+    .movieDetails_Img {
+        margin: 0 auto;
+    }
+    
+    .movieDetails_Info {
+        color: $bg-color-2;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $bg-color-4;
+        margin: 0 auto;
+        width: 90%;
+        .titulo_MD {
+            color: $bg-color-5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+                color: $bg-color-2;
+            }
+        }
+
+        .genero_MD {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $bg-color-5;
+            border-bottom: 2px solid $bg-color-2;
+            padding: 10px 0;
+            p {
+                color: $bg-color-2;
+                text-align: start;
+            }
+        }
+
+        .descripcion_MD {
+            color: $bg-color-5;
+            margin: 10px 0;
+            p {
+                color: $bg-color-2;
+            }
+        }
+    }
+}
