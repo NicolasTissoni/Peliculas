@@ -21,16 +21,16 @@ const MovieDetails = () => {
         <div className='movieDetails_Container'>
             <img className='movieDetails_Img' src={ImageUrl} alt={movie.title} />
             <div className='movieDetails_Info'>
-                <div className='titulo_MD'>
-                    <strong>Titulo: </strong>
+                <div className='titulo_MD_Cont'>
+                    <strong className='titulo'>Titulo: </strong>
                     <p>{movie.title}</p>
                 </div>
-                <div className='genero_MD'>
-                    <strong>Genero: </strong>
+                <div className='genero_MD_Cont'>
+                    <strong className='titulo'>Genero: </strong>
                     <p>{generos.name}</p>
                 </div>
-                <div className='descripcion_MD'>
-                    <strong>Descripcion: </strong>
+                <div className='descripcion_MD_Cont'>
+                    <strong className='titulo'>Descripcion: </strong>
                     <p>{movie.overview}</p>
                 </div>
             </div>

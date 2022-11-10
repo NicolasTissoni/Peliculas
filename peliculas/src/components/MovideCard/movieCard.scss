@@ -3,9 +3,17 @@
 .li_MovieCard {
     margin: 10px auto;
     padding: 20px;
-
+    
     .li_Movie_img {
-        border: 1px solid white;
+        border: 2px solid $bg-color-2;
+        @include media(desktop) {
+            transition: 0.5s;
+            &:hover {
+                opacity: 0.5;
+                transform: translateY(-30px);
+                transition: 0.5s;
+            }   
+        }
     }
     
     .li_Movie_title {
@@ -14,5 +22,9 @@
         padding: 10px;
         border-radius: 5px;
         margin: 10px;
+        @include media(tablet) {
+            width: 550px;
+            margin: 5px auto;
+        }
     }
 }

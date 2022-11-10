@@ -6,15 +6,19 @@
     align-items: center;
     padding: 10px;
     margin: 10px auto;
+    
 
     .fa-film {
         color: $bg-color-3;
         font-size: 40px;
         margin: 5px;
     }
-    
-    .NavBar_titulo {
-        color: $bg-color-2;
-        margin: 5px;
+    .enlace-titulo {
+        text-decoration: none;
+
+        .NavBar_titulo {
+            color: $bg-color-2;
+            margin: 5px;
+        }
     }
 }

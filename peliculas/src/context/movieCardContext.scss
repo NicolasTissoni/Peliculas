@@ -3,4 +3,10 @@
 .context_MC_Container {
     text-align: center;
     list-style: none;
+    @include media(desktop) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }

@@ -13,8 +13,8 @@ const MovieCard = ({ movie }) => {
           src={imageUrl} 
           alt={movie.title} 
         />
-        <h2 className='li_Movie_title'>{movie.title}</h2>
       </Link>
+        <h2 className='li_Movie_title'>{movie.title}</h2>
     </li>
   )
 }
