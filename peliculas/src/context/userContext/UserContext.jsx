@@ -4,7 +4,7 @@ const UserContext = createContext();
 
 const initialUser = {
     id: '1',
-    name: 'Nicolas',
+    name: 'Persona X',
     favouriteMovies: [663712, 675054, 49046]
 }
 

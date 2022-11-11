@@ -35,6 +35,10 @@
         color: $bg-color-2;
         border-radius: 5px;
         width: 30%;
+        @include media(tablet) {
+            width: 20%;
+            height: 50px;
+        } 
         &.btn-success {
             background-color: green;
         }

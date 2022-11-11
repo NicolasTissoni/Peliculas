@@ -6,9 +6,15 @@
     align-items: center;
     padding: 10px;
     margin: 10px auto;
+    @include media(desktop) {
+        justify-content: center;
+        margin: unset; 
+    }
+
     .navBar_titulo_icon {
         display: flex;
         align-items: center;
+        
         a {
             text-decoration: none;
         }
@@ -24,6 +30,7 @@
             margin: 5px;
         }   
     }
+
     .navBar_user {
         color: $bg-color-2;
         display: flex;
@@ -34,6 +41,23 @@
             padding: 10PX;
             border-radius: 7px;
             border: none;
+            background-color: $bg-color-3;
+            color: $bg-color-2;
+            @include media(desktop) {
+                margin-left: 10px;
+            }
+            @include media(tablet) {
+                width: 150px;
+                height: 50px;
+            }
         }
+        @include media(desktop) {
+            margin: unset;
+            justify-content: center;
+            margin-left: 1500px;
+        }
+        @include media(tablet) {
+            align-items: center;
+        }        
     }
 }
