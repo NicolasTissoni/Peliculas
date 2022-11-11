@@ -54,7 +54,8 @@
         @include media(desktop) {
             margin: unset;
             justify-content: center;
-            margin-left: 1500px;
+            width: 30%;
+            margin-left: 1000px;
         }
         @include media(tablet) {
             align-items: center;
