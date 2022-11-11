@@ -1,5 +1,5 @@
 import React from 'react'
-import MovieCardContext from '../../context/MovieCardContext'
+import MovieCardContext from '../../context/movieCardContext/MovieCardContext'
 
 
 const LandingPage = () => {

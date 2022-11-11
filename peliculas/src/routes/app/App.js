@@ -1,11 +1,11 @@
 import React from 'react';
-
 import MyRoutes from '../Routes';
+
 
 function App() {
   return (
     <div>
-      <MyRoutes />
+        <MyRoutes />
     </div>
   );
 };

@@ -27,4 +27,16 @@
             margin: 5px auto;
         }
     }
+
+    .btn-card {
+        padding: 10px;
+        border: none;
+        background-color: $bg-color-4;
+        color: $bg-color-2;
+        border-radius: 5px;
+        width: 30%;
+        &.btn-success {
+            background-color: green;
+        }
+    }
 }

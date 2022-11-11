@@ -2,8 +2,8 @@ import React, { useState, useEffect} from 'react'
 
 import './movieCardContext.scss';
 
-import MovieCard from '../components/MovideCard/MovieCard';
-import get from '../services/API';
+import MovieCard from '../../components/MovideCard/MovieCard';
+import get from '../../services/API';
 
 const MovieCardContext = () => {
     const [movies, setMovies] = useState([])
